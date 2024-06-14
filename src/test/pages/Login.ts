@@ -4,7 +4,7 @@
  * 2. Sign up new account
  * 3. Forgot password
  * 
- * I'll focus on "Sign In" flow with credentials for this assignment
+ * This demonstration focuses on "Sign In" flow with credentials 
  * with the test user assumed to be already created.
  */
 
