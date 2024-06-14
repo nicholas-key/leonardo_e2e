@@ -1,0 +1,146 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "image-generation;generate-1-image-with-alchemy-off,-512x512,-\"leonardo-lightning-xl\"-model",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Generate 1 image with Alchemy off, 512x512, \"Leonardo Lightning XL\" model",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "a logged in user",
+            "match": {
+              "location": "src/test/steps/ImageGeneration.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8400677611
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the Image Generation page",
+            "match": {
+              "location": "src/test/steps/ImageGeneration.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10358017868
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the \"Leonardo Lightning XL\" model",
+            "match": {
+              "location": "src/test/steps/ImageGeneration.ts:44"
+            },
+            "result": {
+              "status": "pending",
+              "duration": 31769958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Alchemy turned off",
+            "match": {
+              "location": "src/test/steps/ImageGeneration.ts:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "a prompt of \"a successful end to end test\"",
+            "match": {
+              "location": "src/test/steps/ImageGeneration.ts:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "image dimensions of 512 x 512",
+            "match": {
+              "location": "src/test/steps/ImageGeneration.ts:56"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Number of Images is 1",
+            "match": {
+              "location": "src/test/steps/ImageGeneration.ts:60"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the generate button is clicked",
+            "match": {
+              "location": "src/test/steps/ImageGeneration.ts:64"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the generated image displays successfully",
+            "match": {
+              "location": "src/test/steps/ImageGeneration.ts:68"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@legacy_mode",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "image-generation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Image Generation",
+    "tags": [],
+    "uri": "src/test/features/imageGeneration.feature"
+  }
+]

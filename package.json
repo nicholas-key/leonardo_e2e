@@ -1,0 +1,17 @@
+{
+    "name": "leonardo_e2e_automated_test",
+    "version": "1.0.0",
+    "description": "E2E Test automation with Playwright, Cucumber, TypeScript",
+    "main": "index.js",
+    "author": "Nicholas Key",
+    "dependencies": {
+        "@cucumber/cucumber": "^10.8.0",
+        "@playwright/test": "^1.44.1",
+        "playwright": "^1.44.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    },
+    "scripts": {
+      "test": "cucumber-js test"
+    }
+}
